@@ -6,7 +6,7 @@ void programa_1() {
   int a = 95, b = 68, c = 92, d = 88;
   int Total = 0;
   Total = (a + b + c + d) / 4;
-  cout << Total << "\n";
+  cout << "La calificación promedio de Nancy es de : " << Total << "\n";
 }
 
 //Elabora un promedio de 10 califcaciones definidas
@@ -28,7 +28,7 @@ void programa_2() {
     Total = Total + a[x];
   }
   Total = Total / 10;
-  cout << Total << "\n";
+  cout << "El promedio de 10 numeros dados son: "<< Total << "\n";
 }
 
 //Elabora un arreglo de 10 elementos y los intercammbia los primeros 10 de adelante hacia atras
@@ -40,7 +40,7 @@ void programa_3() {
     a[x] = rand() % 50;
   }
   for (int x = 0; x <= 19; x++) {
-    cout << a[x] << ",";
+    cout << "La lista antes del intercambio: " << a[x] << ",";
   }
   cout << "\n";
   for (int x = 0; x <= 9; x++) {
@@ -54,7 +54,7 @@ void programa_3() {
   for (int x = 0; x <= 19; x++) {
     cout << a[x] << ",";
   }
-  cout << "\n";
+  cout << "La lista con el intercambio hecho: " << "\n";
 }
 
 //Calcula n factorial
@@ -68,7 +68,7 @@ void programa_4() {
 
     total = total * (x);
   }
-  cout << total << "\n";
+  cout << "El factorial del numero " << n << " es " <<total << "\n";
 }
 
 //Calcula 3 factoriales y los suma
@@ -99,7 +99,7 @@ void programa_5() {
   }
   resultado = totalX + totalY + totalZ;
 
-  cout << resultado << "\n";
+  cout << "La suma de los factoriales X,Y,Z es " <<resultado << "\n";
 }
 
 //Donde se corren las funciones
