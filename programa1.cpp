@@ -56,7 +56,7 @@ void programa_3() {
   for (int x = 0; x <= 19; x++) {
     cout << a[x] << ",";
   }
-  cout<< "\n"
+  cout<< "\n";
   
 }
 
