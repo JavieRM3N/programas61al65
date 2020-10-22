@@ -39,8 +39,9 @@ void programa_3() {
   for (int x = 0; x <= 19; x++) {
     a[x] = rand() % 50;
   }
+  cout << "Lista del Intercambio antes: ";
   for (int x = 0; x <= 19; x++) {
-    cout << "La lista antes del intercambio: " << a[x] << ",";
+    cout << a[x] << ",";
   }
   cout << "\n";
   for (int x = 0; x <= 9; x++) {
@@ -51,10 +52,12 @@ void programa_3() {
     x = x - 10;
     a[x] = temp2;
   }
+  cout << "La lista con el intercambio hecho: " ;
   for (int x = 0; x <= 19; x++) {
     cout << a[x] << ",";
   }
-  cout << "La lista con el intercambio hecho: " << "\n";
+  cout<< "\n"
+  
 }
 
 //Calcula n factorial
